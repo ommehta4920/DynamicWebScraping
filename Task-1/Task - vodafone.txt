@@ -1,0 +1,26 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***Listing page : https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts
+
+Part 1:-
+
+1. Fetch all the urls from the listing page given above, sort it and store it in a csv.
+2. Iterate over first 5 urls of csv to perform following operation on each of them:
+	Make folder with the name of the product and save all the following screenshots in the same.
+	i.Select the variant from the drop down and iterate (Eg. 128GB or 256GB....)
+	ii. take a screenshot of the page after visiting the link. Save it as "PDP_{variant}.png"
+	iii. take 2nd screenshot of the page after clicking on "Pay for your phone in one go" and then close the popup. Save it as "MSRP_{variant}.png"
+	iv. Click on "Build your Phone Plan".
+	v. then click on "Continue without Trade in".
+	vi. then take 3rd screenshot of the page and Save it as "Phoneplan_{variant}.png".
+	vii. then click on "Continue".
+	viii.then take the 4th screenshot of the page and save it as "Airtime_{variant}.png"
+	# Make sure to write the code to capture for all the variants of the model.
+3. Desired screenshots of a product for one single variant is given in the folder "Sample". Make sure the lenght of the screenshots are correct i.e. full page screenshots.
+4. Use appropriate Xpaths or css selectors. Avoid hard code. 
+5. Maintain the heirarchy of the folders. Vodafone UK > {Model Name} > {Modelname}.png
+	
+-----------------------------------------------------------------------------------------------------------------------------------------
+

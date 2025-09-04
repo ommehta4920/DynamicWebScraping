@@ -1,0 +1,32 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+------- Task Instructions --------
+Listing Page URL: "https://www.t-mobile.com/cell-phones"
+
+*********Data Collection and Screenshot Capture**********
+Step 1: Fetch and Sort URLs
+	Fetch all the urls from the listing page given above, sort it and store it in a csv.
+
+Step 2: Using the first 5 URLs from the CSV file, perform the following steps for each product:
+	Make folder with the name of the product and save all the following screenshots in the same.
+	1. Select the Color with the Highest Number of Variants:
+		Identify the total available colors.
+		Select the color that has the maximum number of variants.
+		Example: If one color has only 1 variant and another has 2 variants, select the second color.
+	2. Take Variant Screenshots:
+		Click on each variant of the product.
+		Take a screenshot for each variant and save them in the format "<VariantName>.png" (e.g., 128GB.png, 256GB.png).
+		Note: The number of variants may vary by product.
+
+	3. Take Promotion Screenshot (if available):
+		Check for available promotion for the product.
+		Click on the "See X Promotions" button to open the promotions popup (where "X" can vary, e.g., 2, 4, 9, 10, etc.).
+		Take a screenshot of the promotions popup and save it as "offer_promo.png".
+		now open each promo description by clicking on "see details" button and take screenshot like this "offers1.png".
+		Close the promotions popup by clicking on the close icon.
+
+Step 3: Desired screenshots of a product is given in the folder "Sample".
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
