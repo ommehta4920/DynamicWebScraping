@@ -86,7 +86,7 @@ T-Mobile US > {Model Name} > {Screenshots}
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/DynamicWebScraping.git
+https://github.com/ommehta4920/DynamicWebScraping.git
 cd DynamicWebScraping
 ```
 2. Install dependencies from requirements.txt:
